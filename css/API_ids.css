@@ -1,0 +1,41 @@
+#tabText{
+    font-family: 'Rock Salt', cursive;
+}
+
+
+#prompt{
+    position: relative;
+    margin: auto;
+    float: center;
+    top: 225px;
+}
+
+#results{
+    position: relative;
+    float:center;
+    top: 400px;
+    width:67%;
+    display: flex;
+}
+
+
+#checkOutTheHook{
+    position: relative;
+    margin: auto;
+    float: center;
+    height: 175px;
+    width: 400px;
+}
+
+/*
+font-family: 'Rock Salt', cursive;
+font-family: 'PT Sans Narrow', sans-serif;
+
+
+span
+
+h4
+
+a
+
+*/
