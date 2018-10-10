@@ -1,0 +1,112 @@
+/* @import 'API_ids.css';
+@import 'API-classes.css';
+@import 'API-structure.css'; */
+
+/*
+font-family: 'Rock Salt', cursive;
+font-family: 'PT Sans Narrow', sans-serif;
+
+*/
+
+body{
+    background: white;
+    margin: auto;
+    z-index:-10;
+}
+
+header{
+    position: fixed;
+    margin:0;
+    padding:0;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    background: url('https://thumbs.gfycat.com/CheapBitesizedIslandcanary-size_restricted.gif') center no-repeat;   
+    background-size: cover;
+    overflow: hidden;
+    z-index: 10;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background: silver;
+    border-top: 2px solid black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 5px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.jumboTEXT{
+    margin: auto;
+    text-align: center;
+    color: yellow;
+    position: relative;
+    top: 40%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-stretch: narrower;
+    font-size:80px;
+    text-shadow: 5px green;
+}
+
+.qNa{
+    text-align: center;
+    z-index: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+}
+
+#prompt{
+    position: relative;
+    margin: auto;
+    top: 225px;
+    height: 350px;
+    z-index: 0;
+    background: burlywood;
+}
+
+#results{
+    position: relative;
+   margin: auto;
+    top: 400px;
+    width:67%;
+    background: white;
+    text-align: center;
+    z-index: 0;
+}
+
+#results a{
+    color: red;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#checkOutTheHook{
+    position: relative;
+    top: 30px;
+    left: 35%;
+    margin: auto;
+    height: 175px;
+    width: 400px;
+    font-family: 'Rock Salt', sans-serif;
+    border-top-left-radius: 140%;
+    border-top-right-radius: 300%;
+    border-bottom-right-radius: 140%;
+    border-bottom-left-radius: 300%;
+    font-size: 30px;
+    z-index: 0;
+    color: yellow;
+    background: blueviolet;
+    
+}
+
+/*
+span
+
+h4
+
+a
+
+*/

@@ -34,15 +34,19 @@ function displayResults(json){
         alert("I can't help you stomp your feet to this jam!")
     } else {
         for(let i = 0; i < tabs.length; i++){
+            let current = tabs[i];    
+
             let tab = document.createElement('span');
             let songNom = document.createElement('h4');
             let link = document.createElement('a');
+            let hrefID = 'http://www.songsterr.com/a/wa/bestMatchForQueryString?';
+            let sID = current.id;
+            let artID = current.artist.name;
+            let song = current.title;
             let clearPage = document.createElement('div');
-
-            let current = tabs[i];
             
-            link.href = current.web_url;
-            link.textContent = current.id;
+            link.href = hrefID + '&s=' + sID;
+            link.textContent = song + ' by ' + artID;
 
             for(let doof = 0; doof < current.length; doof++){
                 let span = document.createElement('span');
