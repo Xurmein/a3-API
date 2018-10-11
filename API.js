@@ -30,31 +30,32 @@ function displayResults(json){
     console.log(json);
     let tabs = json;
 
+    
     if(tabs.length === 0){
         alert("I can't help you stomp your feet to this jam!")
     } else {
-        for(let i = 0; i < tabs.length; i++){
-            let current = tabs[i];    
+        for(let i = 0; i < tabs.length; i++){ 
+            let current = tabs[i];
 
             let tab = document.createElement('span');
             let songNom = document.createElement('h4');
             let link = document.createElement('a');
-            let hrefID = 'http://www.songsterr.com/a/wa/bestMatchForQueryString?';
-            let sID = current.id;
-            let artID = current.artist.name;
-            let song = current.title;
             let clearPage = document.createElement('div');
             
-            link.href = hrefID + '&s=' + sID;
-            link.textContent = song + ' by ' + artID;
+            const hrefID = 'http://www.songsterr.com/a/wa/song?id=';
+            const artID = current.artist.name;
+            const sID = current.id;
+            const music = current.title;            
+            link.href = hrefID + sID;
+            link.setAttribute('target', 'blank');
+
+            link.textContent = music + ' by ' + artID;
 
             for(let doof = 0; doof < current.length; doof++){
                 let span = document.createElement('span');
                 span.textContent += current[doof].value + ' ';
                 songNom.appendChild(span);
             }
-
-            
             
             clearPage.setAttribute('class', 'clear_page');
             
