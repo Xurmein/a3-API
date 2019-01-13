@@ -1,5 +1,5 @@
 {
   "projects": {
-    "default": "a3-api-goldbadge"
+    "default": "gbadge-api"
   }
 }

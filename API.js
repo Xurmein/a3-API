@@ -1,4 +1,4 @@
-const baseURL = "http://www.songsterr.com/a/ra/songs.json?pattern="
+const baseURL = "https://www.songsterr.com/a/ra/songs.json?pattern="
 let url;
 
 const sTitle = document.querySelector('.song-title');
