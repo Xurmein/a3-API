@@ -42,7 +42,7 @@ function displayResults(json){
             let link = document.createElement('a');
             let clearPage = document.createElement('div');
             
-            const hrefID = 'http://www.songsterr.com/a/wa/song?id=';
+            const hrefID = 'https://www.songsterr.com/a/wa/song?id=';
             const artID = current.artist.name;
             const sID = current.id;
             const music = current.title;            
